@@ -13,3 +13,15 @@ target = noone;
 startingX = y;
 startingY = y;
 distanceMoved = 0;
+
+enum HandState {
+	HOLDING,
+	THROWING,
+	INITTING,
+	RESETTING,
+}
+
+//States
+//Holding ball
+//Throwing ball
+//Moving to original position
