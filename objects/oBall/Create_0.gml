@@ -9,3 +9,16 @@ thrown = false;
 
 startX = x;
 startY = y;
+
+landedObject = noone;
+
+
+enum BallState {
+	HELD,
+	THROWN,
+	LANDED,
+	INACTIVE,
+	UNASSIGNED,
+}
+
+state = BallState.UNASSIGNED;

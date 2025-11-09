@@ -9,6 +9,7 @@ holdingDistance = 50;
 holding = false;
 
 target = noone;
+ball = noone;
 
 startingX = y;
 startingY = y;
@@ -19,7 +20,10 @@ enum HandState {
 	THROWING,
 	INITTING,
 	RESETTING,
+	AWAITING_BALL,
 }
+
+state = HandState.INITTING;
 
 //States
 //Holding ball

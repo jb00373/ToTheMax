@@ -1,18 +1,21 @@
 function landedIn() {
-	xLerpSpd = 0;
+	//xSpd = 0;
 	//ySpd = 0;
 }
 
-lerpAmount += xLerpSpd;
-if (lerpAmount >= 1) {
+if (place_meeting(x + xSpd, y, oBinWall)) {
 	xDirection = xDirection * -1;
-	target = startX + xLimit * xDirection;
-	lerpAmount = 0;
+	xSpd *= xDirection;
 }
 
-if (instance_place(x + xLerpSpd, y, oBall)) {
+if (place_meeting(x + xSpd, y, oBall)) {
 	landedIn();	
 }
 
-x = lerp(x, target, xLerpSpd);
 
+x += xSpd;
+
+leftSide.x = x;
+rightSide.x = x;
+topLeft.x = x;
+topRight.x = x;

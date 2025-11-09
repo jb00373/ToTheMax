@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"oBin",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oBinCollisionsTopLeft",
+  "eventList":[],
   "managed":true,
-  "name":"oBin",
+  "name":"oBinCollisionsTopLeft",
   "overriddenProperties":[],
   "parent":{
     "name":"Bins",
     "path":"folders/Objects/Bins.yy",
   },
   "parentObjectId":{
-    "name":"oWall",
-    "path":"objects/oWall/oWall.yy",
+    "name":"oBounceCorner",
+    "path":"objects/oBounceCorner/oBounceCorner.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -30,8 +27,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"xSpd","filters":[],"listItems":[],"multiselect":false,"name":"xSpd","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"ySpd","filters":[],"listItems":[],"multiselect":false,"name":"ySpd","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"xLerpSpd","filters":[],"listItems":[],"multiselect":false,"name":"xLerpSpd","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"yLerpSpd","filters":[],"listItems":[],"multiselect":false,"name":"yLerpSpd","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"xLimit","filters":[],"listItems":[],"multiselect":false,"name":"xLimit","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"yLimit","filters":[],"listItems":[],"multiselect":false,"name":"yLimit","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
@@ -39,9 +36,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sBin",
-    "path":"sprites/sBin/sBin.yy",
+    "name":"sBinCollisionsTopLeft",
+    "path":"sprites/sBinCollisionsTopLeft/sBinCollisionsTopLeft.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

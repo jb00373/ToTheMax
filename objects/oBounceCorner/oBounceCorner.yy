@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oWall",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oBounceCorner",
+  "eventList":[],
   "managed":true,
-  "name":"oWall",
+  "name":"oBounceCorner",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Bins",
+    "path":"folders/Objects/Bins.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,11 +26,8 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":{
-    "name":"sWall",
-    "path":"sprites/sWall/sWall.yy",
-  },
+  "solid":false,
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
