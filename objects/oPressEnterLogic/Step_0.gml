@@ -1,5 +1,7 @@
 var enterKey = keyboard_check_pressed(vk_enter);
 
 if enterKey {
-	room_goto_next();
+	if (room_next(room) != -1) {
+		room_goto_next();
+	}
 }

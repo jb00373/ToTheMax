@@ -6,7 +6,6 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_18C05EDA1_1_2_1_1_1","path":"rooms/Room4Jeffm/Room4Jeffm.yy",},
     {"name":"inst_6ABDFED1_1_1_2_1_1_1","path":"rooms/Room4Jeffm/Room4Jeffm.yy",},
     {"name":"inst_77237FA9_1_1","path":"rooms/Room4Jeffm/Room4Jeffm.yy",},
     {"name":"inst_351E26E","path":"rooms/Room4Jeffm/Room4Jeffm.yy",},
@@ -15,7 +14,6 @@
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v4","%Name":"inst_18C05EDA1_1_2_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_18C05EDA1_1_2_1_1_1","objectId":{"name":"oWall","path":"objects/oWall/oWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":32.0,"scaleY":4.0,"x":0.0,"y":768.0,},
         {"$GMRInstance":"v4","%Name":"inst_6ABDFED1_1_1_2_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6ABDFED1_1_1_2_1_1_1","objectId":{"name":"oGameManager","path":"objects/oGameManager/oGameManager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":32.0,},
         {"$GMRInstance":"v4","%Name":"inst_77237FA9_1_1","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_77237FA9_1_1","objectId":{"name":"oHand_2","path":"objects/oHand_2/oHand_2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":864.0,"y":512.0,},
         {"$GMRInstance":"v4","%Name":"inst_351E26E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_351E26E","objectId":{"name":"oJeffmBall","path":"objects/oJeffmBall/oJeffmBall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":832.0,"y":448.0,},
