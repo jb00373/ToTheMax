@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"bounce2",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.8662585,
+  "exportDir":"",
+  "name":"bounce2",
+  "parent":{
+    "name":"ToTheMax",
+    "path":"ToTheMax.yyp",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"bounce2.wav",
+  "volume":1.0,
+}

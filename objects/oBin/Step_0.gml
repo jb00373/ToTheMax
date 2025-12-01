@@ -1,6 +1,6 @@
 function landedIn() {
-	//xSpd = 0;
-	//ySpd = 0;
+	alarm[0] = 20;
+	alarmSet = true;
 }
 
 if (place_meeting(x + xSpd, y, oBinWall)) {
@@ -9,7 +9,9 @@ if (place_meeting(x + xSpd, y, oBinWall)) {
 }
 
 if (place_meeting(x + xSpd, y, oBall)) {
-	landedIn();	
+	if !alarmSet {
+		landedIn();	
+	}
 }
 
 

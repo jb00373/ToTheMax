@@ -24,6 +24,7 @@ enum HandState {
 }
 
 state = HandState.INITTING;
+image_speed = 0;
 
 //States
 //Holding ball

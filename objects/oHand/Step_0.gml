@@ -34,8 +34,6 @@ switch(state) {
 	case HandState.INITTING:
 		//When ball is in position (not moving), move hand there and initialise
 		if !ball {
-			show_debug_message("instance number");
-			show_debug_message(instance_number(oBall));
 			for (var i = 0; i < instance_number(oBall); i++)
 			{
 			    if (instance_find(oBall,i).state == BallState.UNASSIGNED) {
@@ -66,6 +64,7 @@ switch(state) {
 			distanceMoved = (abs(y - startingY) + abs(x - startingX));
 			xSpd = target.xSpd;
 			ySpd = target.ySpd;
+			image_speed = 1;
 		}
 		break;
 		
