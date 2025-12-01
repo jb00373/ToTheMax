@@ -81,8 +81,8 @@ y += ySpd;
 
 
 function throwBall() {
-	xSpd = -5;
-	ySpd = -30;
+	xSpd = -100;
+	ySpd = -100;
 	thrown = true;
 	if random(10) > 5 {
 		audio_play_sound(swordSwing1, 1, false);
@@ -90,6 +90,7 @@ function throwBall() {
 	else {
 		audio_play_sound(swordSwing2, 1, false);
 	}
+	alarm[3] = 100;
 }
 
 function resetBall() {
