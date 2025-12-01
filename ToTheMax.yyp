@@ -172,6 +172,7 @@
     {"id":{"name":"sWait","path":"sprites/sWait/sWait.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
     {"id":{"name":"sWhatWasThat","path":"sprites/sWhatWasThat/sWhatWasThat.yy",},},
+    {"id":{"name":"sWhite","path":"sprites/sWhite/sWhite.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
